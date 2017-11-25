@@ -16,7 +16,6 @@ window.addEventListener('beforeinstallprompt', (e) => {
 var shareImageButton = document.querySelector('#share-image-button');
 var createPostArea = document.querySelector('#create-post');
 var closeCreatePostModalButton = document.querySelector('#close-create-post-modal-btn');
-var deferredPrompt = require('./app.js').deferredPrompt;
 
 function openCreatePostModal() {
     createPostArea.style.display = 'block';
