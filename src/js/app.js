@@ -11,4 +11,5 @@ window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     deferredPrompt = e;
     return false;
-})
+});
+module.exports = deferredPrompt;
