@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('../../sw.js').then(() => {
+    navigator.serviceWorker.register('https://aakashrstg00.github.io/testpwa/sw.js').then(() => {
         console.log('service worker registered!');
     });
 }
